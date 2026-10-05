@@ -1,0 +1,66 @@
+{
+  "organizations": [
+    {
+      "id": "org-1",
+      "name": "Global Enterprise Inc.",
+      "domain": "enterprise.com",
+      "employeeCount": 1,
+      "carbonTargetKg": 10000
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-me",
+      "name": "New Employee User",
+      "email": "user@enterprise.com",
+      "role": "employee",
+      "orgId": "org-1",
+      "orgName": "Global Enterprise Inc.",
+      "department": "General",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "phone": "+91 98765 43210",
+      "rating": 5.0,
+      "tripsCompleted": 0,
+      "walletBalance": 500.00,
+      "isDriver": true
+    },
+    {
+      "id": "usr-admin",
+      "name": "Company Admin",
+      "email": "admin@enterprise.com",
+      "role": "admin",
+      "orgId": "org-1",
+      "orgName": "Global Enterprise Inc.",
+      "department": "Administration",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+      "phone": "+91 98123 45678",
+      "rating": 5.0,
+      "tripsCompleted": 0,
+      "walletBalance": 1000.00,
+      "isDriver": false
+    }
+  ],
+  "vehicles": [],
+  "rides": [],
+  "trips": [],
+  "savedPlaces": [],
+  "analytics": {
+    "totalTripsCompleted": 0,
+    "totalDistanceKm": 0,
+    "co2SavedKg": 0,
+    "totalFuelCostSavedUSD": 0,
+    "monthlyTrends": [],
+    "vehicleWiseAnalysis": []
+  },
+  "adminSettings": {
+    "fuelPricePerLiter": 1.65,
+    "defaultCostPerKm": 0.35,
+    "companySubsidyPct": 20,
+    "allowedDomains": [
+      "enterprise.com"
+    ],
+    "autoApproveVerifiedDrivers": true,
+    "requireVehicleInspection": true,
+    "maxDetourMins": 15
+  }
+}
